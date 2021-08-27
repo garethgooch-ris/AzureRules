@@ -17,6 +17,11 @@
       "allChildren": false
     },
     {
+      "ifChildState": "Peer Review",
+      "setParentStateTo": "In Progress",
+      "allChildren": false
+    },
+    {
      "ifChildState": "Committed",
      "parentState": "Approved",
      "setParentState": "Committed",
