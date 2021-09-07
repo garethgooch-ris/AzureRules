@@ -26,6 +26,12 @@
      "parentState": "Approved",
      "setParentState": "Committed",
      "allChildren": false
+    },
+    {
+     "ifChildState": "To Do",
+     "notParentStates": [ "Approved" ],
+     "setParentState": "In Progress",
+     "allChildren": false
     }
   ]
 }
