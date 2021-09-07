@@ -29,7 +29,7 @@
     },
     {
      "ifChildState": "To Do",
-     "ParentState": "Approved",
+     "ParentState": "Review",
      "setParentState": "In Progress",
      "allChildren": false
     }
